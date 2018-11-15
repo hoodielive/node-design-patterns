@@ -1,5 +1,18 @@
 23 NodeJS Design Patterns 
 
+'Each pattern describes a problem which occurs over and over again in our environment, and then describes the core
+of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing
+it the same way twice.'
+
+                                        - Christopher Alexander, A Pattern Language: Towns, Buildings, Construction 
+
+
+Design Pattern Essentials: 
+  - Pattern name
+  - The problem
+  - The solution 
+  - Consequences 
+
 Creational> 
   - Abstract Factory
   - Builder 
@@ -29,3 +42,4 @@ Behavorial>
   - Tempate Method 
   - Visitor 
 
+Src: The Gang of Four -> Design Patterns: Elements of Reuseable Object-Oriented Software 
