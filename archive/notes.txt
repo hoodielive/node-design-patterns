@@ -49,4 +49,17 @@ Other Patterns:
   - Callback 
   - Middleware
 
+AntiPatterns (Bad solutions that cause problems and thus should be avoided)
+  (code smells)
+
+  - Modifying the prototype on an instance: 
+    person.__proto__.address = {}; 
+  
+  - Syncing execution after initialization 
+    listen() {
+      fs.readFileSync( ... ); // really bad idea as this will make your code slow and irritate users  
+    }
+
+  - Callback hell (chaos)
+
 Src: The Gang of Four -> Design Patterns: Elements of Reuseable Object-Oriented Software 
