@@ -2,7 +2,7 @@ const Logger = require('./singleton-Logger');
 const Shopper = require('./singleton-Shopper'); 
 const Store = require('./singleton-Store'); 
 
-let logger = new Logger(); 
+let logger = new Logger().getInstance(); 
 
 logger.log('starting app...'); 
 
