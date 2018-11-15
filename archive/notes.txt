@@ -6,21 +6,20 @@ it the same way twice.'
 
                                         - Christopher Alexander, A Pattern Language: Towns, Buildings, Construction 
 
-
 Design Pattern Essentials: 
   - Pattern name
   - The problem
   - The solution 
   - Consequences 
 
-Creational> 
+Creational <deals with Class instantiation (the creation of object instances)> 
   - Abstract Factory
   - Builder 
   - Factory Method
   - Prototype 
   - Singleton 
 
-Structural> 
+Structural <deals with the 'way' objects are composed> 
   - Adapter 
   - Bridge
   - Composite 
@@ -29,7 +28,7 @@ Structural>
   - Flyweight 
   - Proxy 
 
-Behavorial> 
+Behavorial <defines how objects interact with each other> 
   - Chain of Responsibility
   - Command 
   - Interpreter 
@@ -41,5 +40,13 @@ Behavorial>
   - Strategy
   - Tempate Method 
   - Visitor 
+
+
+Other Patterns:
+  - Module 
+  - Revealing Module
+  - Revealing Constructor 
+  - Callback 
+  - Middleware
 
 Src: The Gang of Four -> Design Patterns: Elements of Reuseable Object-Oriented Software 
