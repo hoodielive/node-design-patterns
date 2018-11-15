@@ -24,3 +24,4 @@ logger.log('Finished config..');
 
 console.log(`${logger.count} logs total`); 
 
+logger.logs.map(log => console.log(` ${log.message}`)); 
